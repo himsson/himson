@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Himson</title>
+<link rel="icon" href="avatar.jpg" type="image/jpeg">
+<meta name="description" content="himson — 15 y/o developer & coder from Moscow. Neural networks, reinforcement learning, small projects in a lot of languages.">
+<meta property="og:title" content="Himson">
+<meta property="og:description" content="15 y/o developer & coder from Moscow.">
+<meta property="og:image" content="avatar.jpg">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg"></div>
+<div class="bg-overlay"></div>
+<div class="scanlines"></div>
+
+<main class="wrap">
+
+  <header class="head">
+    <div class="avatar-box">
+      <img class="avatar" src="avatar.jpg" alt="" onerror="this.parentNode.style.display='none'">
+    </div>
+    <div class="head-text">
+      <h1 class="name" data-text="himson">himson</h1>
+      <p class="tag">15 y/o &middot; developer &amp; coder &middot; moscow</p>
+    </div>
+  </header>
+
+  <section class="intro">
+    <p>I build neural networks and train them with reinforcement learning across different domains.</p>
+    <p>Right now I'm pushing myself into something new.</p>
+    <p>I make small projects in a lot of different languages, mostly to see how far each one can go.</p>
+  </section>
+
+  <nav class="tabs">
+    <button class="tab" data-panel="about">about</button>
+    <button class="tab" data-panel="projects">projects</button>
+    <button class="tab" data-panel="skills">skills</button>
+  </nav>
+
+  <div class="panels">
+
+    <section class="panel" id="about">
+      <span class="panel-label">about</span>
+      <p>Student at the College of Informatics and Programming, Financial University
+         under the Government of the Russian Federation (KIPFIN).</p>
+      <p>It started at 12, when I wanted to make my own Roblox game. I couldn't write a single
+         script back then, so I built the whole thing out of Toolbox parts — and somewhere in
+         that mess I got hooked on code.</p>
+      <p>Over the last year I went all in. Most of the major languages at a working level,
+         and still going.</p>
+    </section>
+
+    <section class="panel" id="projects">
+      <span class="panel-label">projects</span>
+      <p class="soon">// nothing shipped publicly yet — in progress</p>
+    </section>
+
+    <section class="panel" id="skills">
+      <span class="panel-label">skills</span>
+
+      <p class="row-label">languages</p>
+      <ul class="chips">
+        <li>python</li><li>javascript</li><li>c#</li><li>c++</li><li>kotlin</li><li>dart</li>
+      </ul>
+
+      <p class="row-label">tools</p>
+      <ul class="chips">
+        <li>vscode</li><li>visual studio</li><li>idea</li><li>android studio</li>
+        <li>blender</li><li>figma</li><li>flutter</li><li>electron</li><li>github</li>
+      </ul>
+    </section>
+
+  </div>
+
+  <footer class="foot">
+    <span class="clock">moscow <span id="time">--:--</span></span>
+    <span class="sep">/</span>
+    <a href="https://t.me/himsson" target="_blank" rel="noopener">telegram</a>
+    <span class="sep">/</span>
+    <a href="https://github.com/himsson" target="_blank" rel="noopener">github</a>
+  </footer>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
